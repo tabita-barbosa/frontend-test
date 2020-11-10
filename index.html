@@ -9,56 +9,90 @@
 </head>
 
 <body>
-    <section class="form-wrapper">
+<!-- FORMS START -->
+    <section id="form-wrapper">
         <form>
-            <div>
-                <label>
-                    Nome
-                </label>
-                <input class="name" placeholder="Insira seu nome completo">
-            </div>
-            <div>
-                <label>Data de nascimento</label>
-                <time class="born" placeholder="dd/mm/aaaa">
-            </div>
-            <div>
-                <label>Carteira de motorista</label>
-                <input class="drive-license-num" placeholder="[11100011100]">
-                <input class="drive-license-date" placeholder="[dd/mm/aaaa]">
-            </div>
-            <div>
-                <label>Estado</label>
-                <input class="state" placeholder="Estado de nascimento">
-            </div>
-            <div>
-                <label>Cidade</label>
-                <input class="city" placeholder="Cidade de nascimento">
-            </div>
-            <div>
-                <label>Telefones</label>
-                <input class="tel" placeholder="[ddd][número]">
-                <button class="button-add">adicionar mais</button>
-            </div>
-            <div>
-                <label>E-mails</label>
-                <input class="email" placeholder="[email@example.com]">
-                <button class="button-add">adicionar mais</button>
-            </div>
-            <div>
-                <h1>Responsável</h1>
+            <h1>Cliente</h1>
+            <div id="div-wrapper">
                 <label>Nome</label>
-                <input class="respName" placeholder="Nome completo do responsável">
-                <label>Telefone</label>
-                <input class="respTel" placeholder="[ddd][número]">
-                <button class="saveClient">Salvar cliente</button>
+                <input id="name" type="text" placeholder="Nome completo" required/>
             </div>
-
+            <div id="div-wrapper">
+                <label>Data de nascimento</label>
+                <input id="born" type="date" placeholder="[dd/mm/aaaa]" required/>
+            </div>
+            <div id="div-wrapper">
+                <label>Carteira de motorista</label>
+                <input id="driver-num" placeholder="[00000000000]"/>
+                <input id="driver-date" type="date" placeholder="[dd/mm/aaaa]"/>
+            </div>
+            <div id="div-wrapper">
+                <label>Estado</label>
+                <select id="state" type="text" placeholder="Estado de nascimento" required>
+                    <option>Selecione o estado</option>
+                    <option value="ac">Acre</option>
+                    <option value="al">Alagoas</option>
+                    <option value="am">Amazonas</option>
+                    <option value="ba">Bahia</option>
+                    <option value="ce">Ceará</option>
+                    <option value="df">Distrito Federal</option>
+                    <option value="es">Espírito Santo</option>
+                    <option value="go">Goiás</option>
+                    <option value="ma">Maranhão</option>
+                    <option value="mt">Mato Grosso</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="pa">Pará</option>
+                    <option value="pb">Paraíba</option>
+                    <option value="pr">Paraná</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="pi">Piauí</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="ro">Rondônia</option>
+                    <option value="rr">Roraima</option>
+                    <option value="sc">Santa Catarina</opton>
+                    <option value="sp">São Paulo</option>
+                    <option value="se">Sergipe</option>
+                    <option value="to">Tocantins</option>
+                </select>
+            </div>
+            <div id="div-wrapper">
+                <label>Cidade</label>
+                <input id="city" type="text" placeholder="Cidade de nascimento"/>
+            </div>
+            <div id="div-wrapper">
+                <label>Telefones</label>
+                <input id="tel" type="tel" placeholder="[ddd][número]" required/>
+                <div id="div-insert-tel">
+                </div>
+                <button id="btn-add">adicionar mais</button>
+            </div>
+            <div id="div-wrapper">
+                <label>E-mails</label>
+                <input id="email" type="email" placeholder="[email@example.com]" required/>
+                <div id="div-insert-email">
+                </div>
+                <button id="btn-add">adicionar mais</button>
+            </div>
+            <div id="div-wrapper">
+                <h2>Responsável</h2>
+                <label>Nome</label>
+                <input id="respName" type="text" placeholder="Nome completo do responsável"/>
+                <label>Telefone</label>
+                <input id="respTel" type="tel" placeholder="[ddd][número]"/>
+            </div>
+            <button id="btn-saveClient">Salvar cliente</button>
+            <div id="div-showClient">
+                <p id="dataClient"></p>
+            </div>
         </form>
-
     </section>
-
+<!-- FORMS END -->
+    
+<!-- SLIDES START -->
     <!-- <section class="slideshow">
-
         <article id="slideOne" class="slides">
             <figure>
                 <img src="" alt="" />
@@ -68,7 +102,6 @@
             <p></p>
             <button></button>
         </article>
-
         <article id="slideTwo" class="slides">
             <figure>
                 <img src="" alt="" />
@@ -78,7 +111,6 @@
             <p></p>
             <button></button>
         </article>
-
         <article id="slideThree" class="slides">
             <figure>
                 <img src="" alt="" />
@@ -88,7 +120,6 @@
             <p></p>
             <button></button>
         </article>
-
         <article id="slideFour" class="slides">
             <figure>
                 <img src="" alt="" />
@@ -98,12 +129,10 @@
             <p></p>
             <button></button>
         </article>
-
     </section> -->
+<!-- SLIDES END -->
 
-
-    <script src="script.js" type="text/javascript">
-    </script>
+    <script src="script.js" type="text/javascript"> </script>
 </body>
 
 </html>
