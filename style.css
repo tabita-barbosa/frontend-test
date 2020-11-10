@@ -1,12 +1,13 @@
-/* FORMS START */
-
 #form-wrapper{
     display: flex;
     flex-direction: column;
     background-color: #dfe4ea;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+    /* align-content: center; */
     padding: 2rem;
+}
+form{
+    align-self: center;
 }
 
 #div-wrapper{
@@ -50,34 +51,3 @@
     max-width: 400px;
     margin-top: 2rem;
 }
-
-/* FORMS END */
-
-/* SLIDES START */
-
-.slideshow{
-    max-height: 60%;
-    max-width: 80%;
-}
-
-.slides img{
-    filter: contrast(50%);
-}
-
-#slideOne{
-
-}
-
-#slideTwo{
-
-}
-
-#slideThree{
-
-}
-
-#slideFour{
-
-}
-
-/* SLIDES END */

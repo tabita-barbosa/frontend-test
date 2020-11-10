@@ -1,0 +1,26 @@
+[
+    {
+        "image": "./assets/img1.jfif",
+        "title": "Lorem Ipsum?",
+        "subtitle": "Simply dummy text of the printing and typesetting industry",
+        "text": "Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when a unknown printer took a gallery of type and scrambled it. It has suvived five centuries."
+    },
+    {
+        "image": "./assets/img3.jfif",
+        "title": "Why do we use it?",
+        "subtitle": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "text": ""
+    },
+    {
+        "image": "./assets/img5.jfif.jfif",
+        "title": "where does it come from?",
+        "subtitle": "Contrary to popular belief, Lorem Ipsum is not a random text",
+        "text": ""
+    },
+    {
+        "image": "./assets/img6.jfif",
+        "title": "Where can i get some?",
+        "subtitle": "There are many variations of passages of Lorem Ipsum",
+        "text": "There are many of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words wich don't look even slighty believable. The generated Lorem Ipsum is therefore always free from repetition."
+    }
+]

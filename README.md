@@ -1,7 +1,5 @@
 # Credere
 
-Para mais informações sobre a vaga, [acesse a nossa página no Hipsters.jobs](https://hipsters.jobs/company/672/credere/).
-
 ## 1. Primeira parte
 
 ### Um formulário
